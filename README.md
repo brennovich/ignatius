@@ -1,5 +1,7 @@
 # Ignatius
 
+[![Build Status](https://secure.travis-ci.org/brunohenrique/ignatius.png?branch=master)](https://travis-ci.org/brunohenrique/ignatius)
+
 TODO: Write a gem description
 
 ## Installation
