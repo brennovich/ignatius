@@ -1,7 +1,7 @@
 # Ignatius
 
 [![Build
-Status](https://secure.travis-ci.org/brunohenrique/ignatius.png?branch=dev)](https://travis-ci.org/brunohenrique/ignatius)  [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/brunohenrique/ignatius)[![Dependency Status](https://gemnasium.com/brunohenrique/ignatius.png)](https://gemnasium.com/brunohenrique/ignatius)
+Status](https://secure.travis-ci.org/brunohenrique/ignatius.png?branch=dev)](https://travis-ci.org/brunohenrique/ignatius)[![Dependency Status](https://gemnasium.com/brunohenrique/ignatius.png)](https://gemnasium.com/brunohenrique/ignatius)[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/brunohenrique/ignatius)
 
 TODO: Write a gem description
 
