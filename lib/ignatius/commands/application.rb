@@ -5,8 +5,8 @@ if ['--version', '-v'].include?(ARGV.first)
   exit(0)
 end
 
-if ARGV.first != "new"
-  ARGV[0] = "--help"
+if ARGV.first != 'new'
+  ARGV[0] = '--help'
 else
-  puts "New app"
+  puts 'New app'
 end
