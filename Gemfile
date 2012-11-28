@@ -8,6 +8,7 @@ group :development do
   gem 'rake'
   gem 'rb-inotify', '~> 0.8.8'
   gem 'sinatra'
+  gem 'thor'
 end
 
 group :test do

@@ -1,1 +1,1 @@
-require 'ignatius/commands/application'
+require 'ignatius/commands'
