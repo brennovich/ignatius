@@ -1,9 +1,6 @@
+require 'rspec/core/rake_task'
 require "bundler/gem_tasks"
-
-desc 'Run specs'
-task :spec do
- system 'rspec --format doc --color'
-end
+RSpec::Core::RakeTask.new
 
 task :default => :spec
 
