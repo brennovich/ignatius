@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
+# -*- mode: ruby -*-
+
 require 'ignatius/cli'
