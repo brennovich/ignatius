@@ -1,5 +1,10 @@
 require File.join(File.dirname(__FILE__), '..', 'lib', 'ignatius.rb')
-Dir[File.dirname(__FILE__) + "/support/**/*.rb"].each {|r| require r}
+Dir[File.dirname(__FILE__) + "/support/**/*.rb"].each {|r| require r
+}
+require "pathname"
+
+SPECDIR = Pathname.new(File.dirname(__FILE__))
+TMPDIR = SPECDIR.join("tmp")
 
 RSpec.configure do |config|
   config.include(SpecHelper)

@@ -1,3 +1,4 @@
+require 'thor'
 Dir[File.dirname(__FILE__) + '/ignatius/**/*.rb'].each {|file| require file }
 
 module Ignatius

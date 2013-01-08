@@ -1,4 +1,5 @@
+# -*- encoding: utf-8 -*-
 module Ignatius
-  class Cli
+  class Cli < Thor
   end
 end

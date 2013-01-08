@@ -1,4 +1,8 @@
 module SpecHelper
+  def tmpdir
+    TMPDIR
+  end
+
   def capture(stream)
     begin
       stream = stream.to_s
@@ -6,7 +10,7 @@ module SpecHelper
       yield
       result = eval("$#{stream}").string
     ensure
-      eval("$#{steam} = #{stream.upcase}")
+      eval("$#{stream} = #{stream.upcase}")
     end
 
     result
