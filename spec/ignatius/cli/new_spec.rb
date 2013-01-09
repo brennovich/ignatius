@@ -9,7 +9,7 @@ describe Ignatius::Cli do
 
       let(:myblog){ tmpdir.join("myBlog") }
 
-      it "generate structure base to the engine" do
+      it "generate blog folder" do
         expect(myblog).to be_derectory
       end
 
