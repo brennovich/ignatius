@@ -7,11 +7,7 @@ describe Ignatius::Cli do
         capture(:stdout) { Ignatius::Cli.start(["new", tmpdir.join("myBlog").to_s]) }
       end
 
-      let(:myblog){ tmpdir.join("myBlog") }
-
-      it "generate blog folder" do
-        expect(myblog).to be_derectory
-      end
+      it_behaves_like :blog
 
       it "exists with status 1 when no path is provided" do
         expect {
