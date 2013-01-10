@@ -21,6 +21,11 @@ module Ignatius
       end
     end
 
+    def copy_jekyll_files
+      copy_file 'jekyll/index.html', 'index.html'
+      copy_file 'jekyll/_config.yml', '_config.yml'
+    end
+
     def copy_guardfile
       copy_file 'Guardfile', 'Guardfile'
     end
