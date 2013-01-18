@@ -26,6 +26,10 @@ module Ignatius
       copy_file 'jekyll/_config.yml', '_config.yml'
     end
 
+    def copy_sinatra_file
+      copy_file 'sinatra/config.ru', 'config.ru'
+    end
+
     def copy_guardfile
       copy_file 'Guardfile', 'Guardfile'
     end

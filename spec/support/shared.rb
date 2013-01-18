@@ -39,4 +39,10 @@ shared_examples_for :blog do
     end
   end
 
+  context "create Sinatra server" do
+    it "#create 'config.ru' file" do
+      expect(myblog.join('config.ru')).to be_file
+    end
+  end
+
 end

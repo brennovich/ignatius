@@ -1,0 +1,8 @@
+---
+exclude:  [Gemfile, Gemfile.lock, Rakefile, Guardfile, CNAME, sass, config.rb]
+
+markdown: maruku
+paginate: 5
+permalink: /:year/:month/:day/:title/
+pygments: true
+safe: false
