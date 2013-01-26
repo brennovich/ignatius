@@ -1,14 +1,6 @@
 require 'rspec/core/rake_task'
-require "bundler/gem_tasks"
-RSpec::Core::RakeTask.new
+require 'bundler/gem_tasks'
 
-
-task :build_test do
-  `rake build ignatius.gemspec`
-  `gem install pkg/ignatius-*`
-   puts "OK =)"
-end
-
+RSpec::Core::RakeTask.new(:spec)
 
 task :default => :spec
-

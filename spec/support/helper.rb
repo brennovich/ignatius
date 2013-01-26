@@ -1,6 +1,10 @@
+require 'pathname'
+
 module SpecHelper
+  @@tmpdir ||= Pathname.new("#{File.dirname(__FILE__)}/../../tmp")
+
   def tmpdir
-    TMPDIR
+    @@tmpdir
   end
 
   def capture(stream)
