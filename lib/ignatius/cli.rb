@@ -11,7 +11,7 @@ module Ignatius
 
     desc 'preview', 'Run the server to site preview'
     def preview
-      `rake preview`
+      StaticServer.run!
     end
 
   end
