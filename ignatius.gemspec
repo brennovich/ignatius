@@ -16,15 +16,12 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'http://github.com/brunohenrique/ignatious'
 
   gem.add_dependency 'compass', '~> 0.12.2'
-  gem.add_dependency 'guard-livereload', '~> 1.1.1'
   gem.add_dependency 'jekyll', '~> 0.12.0'
   gem.add_dependency 'rack-livereload', '~> 0.3.10'
   gem.add_dependency 'rake', '~> 10.0.3'
   gem.add_dependency 'sinatra', '~> 1.3.4'
   gem.add_dependency 'thor', '~> 0.17.0'
 
-  gem.add_development_dependency 'awesome_print', '~> 1.1.0'
-  gem.add_development_dependency 'guard-rspec', '~> 2.4.0'
   gem.add_development_dependency 'pry', '~> 0.9.10'
   gem.add_development_dependency 'pry-debugger', '~> 0.2.1'
   gem.add_development_dependency 'rake', '~> 10.0.3'
