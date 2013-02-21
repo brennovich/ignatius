@@ -18,3 +18,5 @@ tmp
 .rbenv-version
 .rvmrc
 Gemfile.lock
+stats/
+.sass-cache/
