@@ -6,14 +6,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ignatius/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'ignatius'
-  gem.version       = Ignatius::VERSION
-  gem.date          = Time.new.strftime('%Y-%m-%d')
-  gem.authors       = ['Bruno Henrique - Garu']
-  gem.email         = ['squall.bruno@gmail.com']
-  gem.description   = %q{Ignatius is a blog engine for hackers who like beautiful things}
-  gem.summary       = %q{Is engine hackers bloging}
-  gem.homepage      = 'http://github.com/brunohenrique/ignatious'
+  gem.name        = 'ignatius'
+  gem.version     = Ignatius::VERSION
+  gem.date        = Time.new.strftime('%Y-%m-%d')
+  gem.authors     = ['Bruno Henrique - Garu']
+  gem.email       = ['squall.bruno@gmail.com']
+  gem.description = %q{Ignatius is a blog engine for hackers who like beautiful things}
+  gem.summary     = %q{Hackers blog engine}
+  gem.homepage    = 'http://github.com/brunohenrique/ignatius'
 
   gem.add_dependency 'compass', '~> 0.12.2'
   gem.add_dependency 'jekyll', '~> 0.12.0'
@@ -29,7 +29,7 @@ Gem::Specification.new do |gem|
 
   gem.bindir        = 'bin'
   gem.files         = `git ls-files`.split($/)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+  gem.executables   = gem.files.grep(%r{^bin/}).map { |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 end
